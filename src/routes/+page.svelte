@@ -5,4 +5,5 @@
 <h1>Counter: {count}</h1>
 <button on:click={() => count--}>Menos</button>
 <button on:click={() => count++}>Mais</button>
+<button on:click={() => count *= 2}>plus</button>
 <button on:click={() => count = 0}>Limpar</button>
